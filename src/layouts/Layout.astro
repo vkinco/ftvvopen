@@ -1,0 +1,21 @@
+---
+import Header from "../components/Header.astro";
+---
+
+<html lang="en" class="bg-gray-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>STATIC CDN</title>
+  </head>
+
+  <body>
+    <main class="py-12 px-2 max-w-4xl mx-auto flex flex-col">
+      <Header />
+
+      <slot />
+
+      <main></main>
+    </main>
+  </body>
+</html>

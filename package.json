@@ -1,0 +1,22 @@
+{
+  "name": "foundry-cdn",
+  "author": "Phenomen#1337",
+  "version": "1.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/svelte": "^2.1.1",
+    "@astrojs/tailwind": "^3.1.2",
+    "@types/node": "^18.16.7",
+    "astro": "^2.4.4",
+    "svelte": "^3.59.1",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5"
+  }
+}
